@@ -10,7 +10,7 @@ Clouds have already been masked.
 The resulting plots looks:
 
 
-![ndvi](https://github.com/xpascuet/ndvi/tree/main/3_NDVI.jpg)
+![ndvi](https://github.com/xpascuet/ndvi/blob/main/3_NDVI.png)
 
 ## 2.- Prerequisites
 Apart from the libraries at requirements.txt, must have the sentinelhub python package installed, Instructions are: https://sentinelhub-py.readthedocs.io/en/latest/install.html
