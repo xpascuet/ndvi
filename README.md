@@ -19,10 +19,10 @@ Must have a Sentinel  Hub account with an Oath client configured: https://sentin
 The coordinates reference systems supported are: https://docs.sentinel-hub.com/api/latest/api/process/crs/
 
 ## 3.- Code structure
-The script to run is the ndvi_plot.py.
+The script to run is the **ndvi_plot.py**.
 
-The sentinel_api_utils.py script contains the necessary functions to request the API, transform the json response to a csv file, and get the main NDVI time series for crop.
+The **sentinel_api_utils.py** script contains the necessary functions to request the API, transform the json response to a csv file, and get the main NDVI time series for crop.
 
-The graph_utils.py contains the necessary functions to plot.
+The **graph_utils.py** contains the necessary functions to plot.
 
 There’s also a multiprocessing version of the code at:  [multiprocessing](https://github.com/xpascuet/ndvi/tree/main/multiprocessing)
