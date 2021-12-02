@@ -8,7 +8,7 @@ The polygons must be in a geojson although it the code could be easily adapted t
 Clouds have already been masked.
 
 The resulting plots looks: 
-![alt text](https://github.com/xpascuet/ndvi/tree/main/3_NDVI.jpg?raw=true)
+![ndvi](https://github.com/xpascuet/ndvi/tree/main/3_NDVI.jpg)
 
 ## 2.- Prerequisites
 Apart from the libraries at requirements.txt, must have the sentinelhub python package installed, Instructions are: https://sentinelhub-py.readthedocs.io/en/latest/install.html
