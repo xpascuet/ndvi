@@ -7,7 +7,9 @@ The polygons must be in a geojson although it the code could be easily adapted t
 
 Clouds have already been masked.
 
-The resulting plots looks: 
+The resulting plots looks:
+
+
 ![ndvi](https://github.com/xpascuet/ndvi/tree/main/3_NDVI.jpg)
 
 ## 2.- Prerequisites
