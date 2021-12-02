@@ -5,10 +5,13 @@ This code uses the SentinelHub Statistical API to calculate the NDVI time series
 
 The polygons must be in a geojson although it the code could be easily adapted to work with a .csv file with WKT geometries.
 
-Clouds have already been masked
+Clouds have already been masked.
+
+The resulting plots looks: 
+![alt text](https://github.com/xpascuet/ndvi/tree/main/3_NDVI.jpg?raw=true)
 
 ## 2.- Prerequisites
-Apart from the libraries in requirements.txt, must have the sentinelhub python package installed, Instructions are: https://sentinelhub-py.readthedocs.io/en/latest/install.html
+Apart from the libraries at requirements.txt, must have the sentinelhub python package installed, Instructions are: https://sentinelhub-py.readthedocs.io/en/latest/install.html
 
 Must have a Sentinel  Hub account with an Oath client configured: https://sentinelhub-py.readthedocs.io/en/latest/configure.html
 
@@ -21,4 +24,4 @@ The sentinel_api_utils.py script contains the necessary functions to request the
 
 The graph_utils.py contains the necessary functions to plot.
 
-There’s also a multiprocessing version of the code at:  [multiprocessing](https://github.com/xpascuet/ndvi/multiprocessing)
+There’s also a multiprocessing version of the code at:  [multiprocessing](https://github.com/xpascuet/ndvi/tree/main/multiprocessing)
