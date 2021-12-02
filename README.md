@@ -3,12 +3,11 @@
 ## 1. Description
 This code uses the SentinelHub Statistical API to calculate the NDVI time series for a set of polygons.
 
-The polygons must be in a geojson although it the code could be easily adapted to work with a .csv file with WKT geometries.
+The polygons must be in a geojson although the code could be easily adapted to work with a .csv file with WKT geometries.
 
 Clouds have already been masked.
 
 The resulting plots looks:
-
 
 ![ndvi](https://github.com/xpascuet/ndvi/blob/main/3_NDVI.png)
 
